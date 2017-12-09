@@ -13,6 +13,11 @@
 		3EE23BFA1FDBF2AB0080F416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE23BF91FDBF2AB0080F416 /* Assets.xcassets */; };
 		3EE23BFD1FDBF2AB0080F416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE23BFB1FDBF2AB0080F416 /* LaunchScreen.storyboard */; };
 		3EE23C001FDBF2AB0080F416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23BFF1FDBF2AB0080F416 /* main.m */; };
+		3EE23C0F1FDBF33F0080F416 /* AFAnimateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23C081FDBF33F0080F416 /* AFAnimateLayer.m */; };
+		3EE23C101FDBF33F0080F416 /* AFAnimateTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23C0C1FDBF33F0080F416 /* AFAnimateTrack.m */; };
+		3EE23C111FDBF33F0080F416 /* AFAnimateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23C0E1FDBF33F0080F416 /* AFAnimateItem.m */; };
+		3EE23C151FDBF3460080F416 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23C141FDBF3460080F416 /* YYTimer.m */; };
+		3EE23C171FDBF39D0080F416 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE23C161FDBF39D0080F416 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		3EE23BFC1FDBF2AB0080F416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE23BFE1FDBF2AB0080F416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE23BFF1FDBF2AB0080F416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EE23C071FDBF33F0080F416 /* AFAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnimate.h; sourceTree = "<group>"; };
+		3EE23C081FDBF33F0080F416 /* AFAnimateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnimateLayer.m; sourceTree = "<group>"; };
+		3EE23C091FDBF33F0080F416 /* AFAnimateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnimateItem.h; sourceTree = "<group>"; };
+		3EE23C0A1FDBF33F0080F416 /* AFAnimateTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnimateTrack.h; sourceTree = "<group>"; };
+		3EE23C0B1FDBF33F0080F416 /* AFAnimateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnimateLayer.h; sourceTree = "<group>"; };
+		3EE23C0C1FDBF33F0080F416 /* AFAnimateTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnimateTrack.m; sourceTree = "<group>"; };
+		3EE23C0D1FDBF33F0080F416 /* AFAnimateDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnimateDefinitions.h; sourceTree = "<group>"; };
+		3EE23C0E1FDBF33F0080F416 /* AFAnimateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnimateItem.m; sourceTree = "<group>"; };
+		3EE23C131FDBF3460080F416 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
+		3EE23C141FDBF3460080F416 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
+		3EE23C161FDBF39D0080F416 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,9 @@
 		3EE23BEF1FDBF2AB0080F416 /* AFAnimateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EE23C121FDBF3460080F416 /* Third */,
+				3EE23C061FDBF33F0080F416 /* AFAnimate */,
+				3EE23C161FDBF39D0080F416 /* test.json */,
 				3EE23BF01FDBF2AB0080F416 /* AppDelegate.h */,
 				3EE23BF11FDBF2AB0080F416 /* AppDelegate.m */,
 				3EE23BF31FDBF2AB0080F416 /* ViewController.h */,
@@ -70,6 +89,30 @@
 			);
 			path = AFAnimateDemo;
 			sourceTree = "<group>";
+		};
+		3EE23C061FDBF33F0080F416 /* AFAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				3EE23C071FDBF33F0080F416 /* AFAnimate.h */,
+				3EE23C081FDBF33F0080F416 /* AFAnimateLayer.m */,
+				3EE23C091FDBF33F0080F416 /* AFAnimateItem.h */,
+				3EE23C0A1FDBF33F0080F416 /* AFAnimateTrack.h */,
+				3EE23C0B1FDBF33F0080F416 /* AFAnimateLayer.h */,
+				3EE23C0C1FDBF33F0080F416 /* AFAnimateTrack.m */,
+				3EE23C0D1FDBF33F0080F416 /* AFAnimateDefinitions.h */,
+				3EE23C0E1FDBF33F0080F416 /* AFAnimateItem.m */,
+			);
+			path = AFAnimate;
+			sourceTree = SOURCE_ROOT;
+		};
+		3EE23C121FDBF3460080F416 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				3EE23C131FDBF3460080F416 /* YYTimer.h */,
+				3EE23C141FDBF3460080F416 /* YYTimer.m */,
+			);
+			path = Third;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -102,7 +145,7 @@
 				TargetAttributes = {
 					3EE23BEC1FDBF2AB0080F416 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -130,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE23BFD1FDBF2AB0080F416 /* LaunchScreen.storyboard in Resources */,
+				3EE23C171FDBF39D0080F416 /* test.json in Resources */,
 				3EE23BFA1FDBF2AB0080F416 /* Assets.xcassets in Resources */,
 				3EE23BF81FDBF2AB0080F416 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +188,10 @@
 			files = (
 				3EE23BF51FDBF2AB0080F416 /* ViewController.m in Sources */,
 				3EE23C001FDBF2AB0080F416 /* main.m in Sources */,
+				3EE23C101FDBF33F0080F416 /* AFAnimateTrack.m in Sources */,
+				3EE23C111FDBF33F0080F416 /* AFAnimateItem.m in Sources */,
+				3EE23C151FDBF3460080F416 /* YYTimer.m in Sources */,
+				3EE23C0F1FDBF33F0080F416 /* AFAnimateLayer.m in Sources */,
 				3EE23BF21FDBF2AB0080F416 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +326,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F7JAV3CR6S;
 				INFOPLIST_FILE = AFAnimateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AF.AFAnimateDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = afrymask.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d6fcb0eb-1ea2-49e7-bf21-377f49e2b090";
+				PROVISIONING_PROFILE_SPECIFIER = afrymask;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -291,11 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AFAnimateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AF.AFAnimateDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = afrymask.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
