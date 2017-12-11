@@ -14,7 +14,8 @@
 
 @property (nonatomic) NSMutableArray<AFAnimateItem *> *items;
 - (void)setJSONPath:(NSString *)path;
-- (void)refreshAtTime:(CGFloat)time;
+- (void)setTextArray:(NSArray *)textArray;
 
 - (void)play;
+- (void)refreshAtTime:(CGFloat)time;
 @end

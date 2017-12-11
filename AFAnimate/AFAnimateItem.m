@@ -27,7 +27,12 @@
     if ([type isEqualToString:@"line"]) {
         item.type = AFAnimateTypeLine;
         item.layer = [CAShapeLayer new];
-        item.layer.frame = CGRectMake(0, 0, 100, 100);
+        item.layer.contentsScale = 3;
+    }else if ([type isEqualToString:@"text"]){
+        item.type = AFAnimateTypeText;
+        item.layer = [CATextLayer new];
+        item.layer.contentsScale = 3;
+//        item.layer.masksToBounds = YES;
     }
     
     NSArray *tracks = [dict objectForKey:@"tracks"];
@@ -72,6 +77,7 @@
     }
     
     if (self.type == AFAnimateTypeLine) {
+        CAShapeLayer *layer = (CAShapeLayer *)self.layer;
         UIColor *color = [UIColor blackColor];
         CGPoint p0 = CGPointZero;
         CGPoint p1 = CGPointZero;
@@ -100,13 +106,28 @@
         path.lineJoinStyle = kCGLineJoinRound;
         [path moveToPoint:realP0];
         [path addLineToPoint:realP1];
-        CAShapeLayer *layer = (CAShapeLayer *)self.layer;
         layer.path = path.CGPath;
         layer.strokeColor = color.CGColor;
         layer.lineWidth = width;
         layer.lineCap = @"round";
-        NSLog(@"alpha %f",alpha);
+        
         layer.opacity = alpha;
+    }else if (self.type == AFAnimateTypeText){
+        CATextLayer *layer = (CATextLayer *)self.layer;
+        
+        UIGraphicsBeginImageContextWithOptions(layer.bounds.size, layer.opaque, layer.contentsScale);
+        
+        
+        [@"ldfjfsasdf" drawInRect:CGRectMake(0, 50, 100, 100) withAttributes:NULL];
+        
+        NSLog(@"alpha %d",(int)(time*5));
+        
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        
+        layer.frame = CGRectMake(0, 0, size.width, size.height);
+        layer.contents = (__bridge id)(image.CGImage);
     }
 }
 

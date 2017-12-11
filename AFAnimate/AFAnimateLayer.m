@@ -48,10 +48,19 @@
 //    UIGraphicsEndImageContext();
 }
 
+- (void)setTextArray:(NSArray *)textArray{
+    
+    
+}
+
 - (void)addItem:(AFAnimateItem *)item{
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
     [self.items addObject:item];
     item.animateLayer = self;
+    item.layer.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     [self addSublayer:item.layer];
+    [CATransaction commit];
 }
 
 - (void)removeItem:(AFAnimateItem *)item{

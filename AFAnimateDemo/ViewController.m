@@ -30,6 +30,7 @@
     
     NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"test.json" ofType:nil];
     [self.animateLayer setJSONPath:jsonPath];
+    [self.animateLayer setTextArray:@[@"123"]];
     
     [self setupPlayButton];
 }
