@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5FC7C61FE518BF009752F0 /* NSShadow+VideoText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC79F1FE518BF009752F0 /* NSShadow+VideoText.m */; };
+		3E5FC7C71FE518BF009752F0 /* VTENUMsToValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7A61FE518BF009752F0 /* VTENUMsToValue.m */; };
+		3E5FC7C81FE518BF009752F0 /* AudioStoreCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7A71FE518BF009752F0 /* AudioStoreCCell.m */; };
+		3E5FC7C91FE518BF009752F0 /* VTFontDescriptorSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7A81FE518BF009752F0 /* VTFontDescriptorSessionManager.m */; };
+		3E5FC7CA1FE518BF009752F0 /* NSAttributedString+VideoText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7A91FE518BF009752F0 /* NSAttributedString+VideoText.m */; };
+		3E5FC7CB1FE518BF009752F0 /* HorizontalButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7AA1FE518BF009752F0 /* HorizontalButtonsView.m */; };
+		3E5FC7CD1FE518BF009752F0 /* VTFontDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7AC1FE518BF009752F0 /* VTFontDownloadManager.m */; };
+		3E5FC7CF1FE518BF009752F0 /* VTENUMTitles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7AE1FE518BF009752F0 /* VTENUMTitles.m */; };
+		3E5FC7D01FE518BF009752F0 /* OTAudioStoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B11FE518BF009752F0 /* OTAudioStoreView.m */; };
+		3E5FC7D11FE518BF009752F0 /* VTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B21FE518BF009752F0 /* VTTextView.m */; };
+		3E5FC7D21FE518BF009752F0 /* UIView+DrawCross.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B31FE518BF009752F0 /* UIView+DrawCross.m */; };
+		3E5FC7D31FE518BF009752F0 /* VTParamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B51FE518BF009752F0 /* VTParamObject.m */; };
+		3E5FC7D41FE518BF009752F0 /* NSString+VideoText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B61FE518BF009752F0 /* NSString+VideoText.m */; };
+		3E5FC7D51FE518BF009752F0 /* VTTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B71FE518BF009752F0 /* VTTextInputView.m */; };
+		3E5FC7D61FE518BF009752F0 /* VTFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B81FE518BF009752F0 /* VTFontDescriptor.m */; };
+		3E5FC7D71FE518BF009752F0 /* VTContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7B91FE518BF009752F0 /* VTContainerView.m */; };
+		3E5FC7D81FE518BF009752F0 /* VTTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7BF1FE518BF009752F0 /* VTTextAttribute.m */; };
+		3E5FC7DB1FE51920009752F0 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7DA1FE51920009752F0 /* TestView.m */; };
+		3E5FC7DE1FE519BB009752F0 /* BaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7DD1FE519BB009752F0 /* BaseDataModel.m */; };
+		3E5FC7E31FE51B4E009752F0 /* UIView+APUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FC7E21FE51B4E009752F0 /* UIView+APUtils.m */; };
 		3EE23BF21FDBF2AB0080F416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23BF11FDBF2AB0080F416 /* AppDelegate.m */; };
 		3EE23BF51FDBF2AB0080F416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE23BF41FDBF2AB0080F416 /* ViewController.m */; };
 		3EE23BF81FDBF2AB0080F416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE23BF61FDBF2AB0080F416 /* Main.storyboard */; };
@@ -22,6 +42,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E5FC79F1FE518BF009752F0 /* NSShadow+VideoText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSShadow+VideoText.m"; sourceTree = "<group>"; };
+		3E5FC7A01FE518BF009752F0 /* VTContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTContainerView.h; sourceTree = "<group>"; };
+		3E5FC7A11FE518BF009752F0 /* VTFontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTFontDescriptor.h; sourceTree = "<group>"; };
+		3E5FC7A21FE518BF009752F0 /* VTTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTextInputView.h; sourceTree = "<group>"; };
+		3E5FC7A31FE518BF009752F0 /* NSString+VideoText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VideoText.h"; sourceTree = "<group>"; };
+		3E5FC7A41FE518BF009752F0 /* VTParamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTParamObject.h; sourceTree = "<group>"; };
+		3E5FC7A51FE518BF009752F0 /* UIView+DrawCross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawCross.h"; sourceTree = "<group>"; };
+		3E5FC7A61FE518BF009752F0 /* VTENUMsToValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTENUMsToValue.m; sourceTree = "<group>"; };
+		3E5FC7A71FE518BF009752F0 /* AudioStoreCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStoreCCell.m; sourceTree = "<group>"; };
+		3E5FC7A81FE518BF009752F0 /* VTFontDescriptorSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTFontDescriptorSessionManager.m; sourceTree = "<group>"; };
+		3E5FC7A91FE518BF009752F0 /* NSAttributedString+VideoText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+VideoText.m"; sourceTree = "<group>"; };
+		3E5FC7AA1FE518BF009752F0 /* HorizontalButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalButtonsView.m; sourceTree = "<group>"; };
+		3E5FC7AC1FE518BF009752F0 /* VTFontDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTFontDownloadManager.m; sourceTree = "<group>"; };
+		3E5FC7AE1FE518BF009752F0 /* VTENUMTitles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTENUMTitles.m; sourceTree = "<group>"; };
+		3E5FC7AF1FE518BF009752F0 /* VTTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTextAttribute.h; sourceTree = "<group>"; };
+		3E5FC7B01FE518BF009752F0 /* VTENUMs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTENUMs.h; sourceTree = "<group>"; };
+		3E5FC7B11FE518BF009752F0 /* OTAudioStoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAudioStoreView.m; sourceTree = "<group>"; };
+		3E5FC7B21FE518BF009752F0 /* VTTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTextView.m; sourceTree = "<group>"; };
+		3E5FC7B31FE518BF009752F0 /* UIView+DrawCross.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawCross.m"; sourceTree = "<group>"; };
+		3E5FC7B41FE518BF009752F0 /* VTENUMsToValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTENUMsToValue.h; sourceTree = "<group>"; };
+		3E5FC7B51FE518BF009752F0 /* VTParamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTParamObject.m; sourceTree = "<group>"; };
+		3E5FC7B61FE518BF009752F0 /* NSString+VideoText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VideoText.m"; sourceTree = "<group>"; };
+		3E5FC7B71FE518BF009752F0 /* VTTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTextInputView.m; sourceTree = "<group>"; };
+		3E5FC7B81FE518BF009752F0 /* VTFontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTFontDescriptor.m; sourceTree = "<group>"; };
+		3E5FC7B91FE518BF009752F0 /* VTContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTContainerView.m; sourceTree = "<group>"; };
+		3E5FC7BA1FE518BF009752F0 /* NSShadow+VideoText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSShadow+VideoText.h"; sourceTree = "<group>"; };
+		3E5FC7BB1FE518BF009752F0 /* HorizontalButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalButtonsView.h; sourceTree = "<group>"; };
+		3E5FC7BC1FE518BF009752F0 /* NSAttributedString+VideoText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+VideoText.h"; sourceTree = "<group>"; };
+		3E5FC7BD1FE518BF009752F0 /* VTFontDescriptorSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTFontDescriptorSessionManager.h; sourceTree = "<group>"; };
+		3E5FC7BE1FE518BF009752F0 /* AudioStoreCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStoreCCell.h; sourceTree = "<group>"; };
+		3E5FC7BF1FE518BF009752F0 /* VTTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTextAttribute.m; sourceTree = "<group>"; };
+		3E5FC7C11FE518BF009752F0 /* VTENUMTitles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTENUMTitles.h; sourceTree = "<group>"; };
+		3E5FC7C21FE518BF009752F0 /* VTFontDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTFontDownloadManager.h; sourceTree = "<group>"; };
+		3E5FC7C41FE518BF009752F0 /* VTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTextView.h; sourceTree = "<group>"; };
+		3E5FC7C51FE518BF009752F0 /* OTAudioStoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAudioStoreView.h; sourceTree = "<group>"; };
+		3E5FC7D91FE51920009752F0 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		3E5FC7DA1FE51920009752F0 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		3E5FC7DC1FE519BA009752F0 /* BaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataModel.h; sourceTree = "<group>"; };
+		3E5FC7DD1FE519BB009752F0 /* BaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataModel.m; sourceTree = "<group>"; };
+		3E5FC7DF1FE51A14009752F0 /* SpecificValueDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificValueDefinitions.h; sourceTree = "<group>"; };
+		3E5FC7E01FE51A2D009752F0 /* GlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMacros.h; sourceTree = "<group>"; };
+		3E5FC7E11FE51B4E009752F0 /* UIView+APUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+APUtils.h"; sourceTree = "<group>"; };
+		3E5FC7E21FE51B4E009752F0 /* UIView+APUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+APUtils.m"; sourceTree = "<group>"; };
 		3EE23BED1FDBF2AB0080F416 /* AFAnimateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFAnimateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE23BF01FDBF2AB0080F416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EE23BF11FDBF2AB0080F416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +121,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E5FC79E1FE518BF009752F0 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				3E5FC79F1FE518BF009752F0 /* NSShadow+VideoText.m */,
+				3E5FC7A01FE518BF009752F0 /* VTContainerView.h */,
+				3E5FC7A11FE518BF009752F0 /* VTFontDescriptor.h */,
+				3E5FC7A21FE518BF009752F0 /* VTTextInputView.h */,
+				3E5FC7A31FE518BF009752F0 /* NSString+VideoText.h */,
+				3E5FC7A41FE518BF009752F0 /* VTParamObject.h */,
+				3E5FC7A51FE518BF009752F0 /* UIView+DrawCross.h */,
+				3E5FC7A61FE518BF009752F0 /* VTENUMsToValue.m */,
+				3E5FC7A71FE518BF009752F0 /* AudioStoreCCell.m */,
+				3E5FC7A81FE518BF009752F0 /* VTFontDescriptorSessionManager.m */,
+				3E5FC7A91FE518BF009752F0 /* NSAttributedString+VideoText.m */,
+				3E5FC7AA1FE518BF009752F0 /* HorizontalButtonsView.m */,
+				3E5FC7AC1FE518BF009752F0 /* VTFontDownloadManager.m */,
+				3E5FC7AE1FE518BF009752F0 /* VTENUMTitles.m */,
+				3E5FC7AF1FE518BF009752F0 /* VTTextAttribute.h */,
+				3E5FC7B01FE518BF009752F0 /* VTENUMs.h */,
+				3E5FC7B11FE518BF009752F0 /* OTAudioStoreView.m */,
+				3E5FC7B21FE518BF009752F0 /* VTTextView.m */,
+				3E5FC7B31FE518BF009752F0 /* UIView+DrawCross.m */,
+				3E5FC7B41FE518BF009752F0 /* VTENUMsToValue.h */,
+				3E5FC7B51FE518BF009752F0 /* VTParamObject.m */,
+				3E5FC7B61FE518BF009752F0 /* NSString+VideoText.m */,
+				3E5FC7B71FE518BF009752F0 /* VTTextInputView.m */,
+				3E5FC7B81FE518BF009752F0 /* VTFontDescriptor.m */,
+				3E5FC7B91FE518BF009752F0 /* VTContainerView.m */,
+				3E5FC7BA1FE518BF009752F0 /* NSShadow+VideoText.h */,
+				3E5FC7BB1FE518BF009752F0 /* HorizontalButtonsView.h */,
+				3E5FC7BC1FE518BF009752F0 /* NSAttributedString+VideoText.h */,
+				3E5FC7BD1FE518BF009752F0 /* VTFontDescriptorSessionManager.h */,
+				3E5FC7BE1FE518BF009752F0 /* AudioStoreCCell.h */,
+				3E5FC7BF1FE518BF009752F0 /* VTTextAttribute.m */,
+				3E5FC7E11FE51B4E009752F0 /* UIView+APUtils.h */,
+				3E5FC7E21FE51B4E009752F0 /* UIView+APUtils.m */,
+				3E5FC7C11FE518BF009752F0 /* VTENUMTitles.h */,
+				3E5FC7C21FE518BF009752F0 /* VTFontDownloadManager.h */,
+				3E5FC7C41FE518BF009752F0 /* VTTextView.h */,
+				3E5FC7DF1FE51A14009752F0 /* SpecificValueDefinitions.h */,
+				3E5FC7E01FE51A2D009752F0 /* GlobalMacros.h */,
+				3E5FC7C51FE518BF009752F0 /* OTAudioStoreView.h */,
+				3E5FC7DC1FE519BA009752F0 /* BaseDataModel.h */,
+				3E5FC7DD1FE519BB009752F0 /* BaseDataModel.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		3EE23BE41FDBF2AB0080F416 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +195,8 @@
 				3EE23BF11FDBF2AB0080F416 /* AppDelegate.m */,
 				3EE23BF31FDBF2AB0080F416 /* ViewController.h */,
 				3EE23BF41FDBF2AB0080F416 /* ViewController.m */,
+				3E5FC7D91FE51920009752F0 /* TestView.h */,
+				3E5FC7DA1FE51920009752F0 /* TestView.m */,
 				3EE23BF61FDBF2AB0080F416 /* Main.storyboard */,
 				3EE23BF91FDBF2AB0080F416 /* Assets.xcassets */,
 				3EE23BFB1FDBF2AB0080F416 /* LaunchScreen.storyboard */,
@@ -96,6 +209,7 @@
 		3EE23C061FDBF33F0080F416 /* AFAnimate */ = {
 			isa = PBXGroup;
 			children = (
+				3E5FC79E1FE518BF009752F0 /* Text */,
 				3EE23C071FDBF33F0080F416 /* AFAnimate.h */,
 				3EE23C0B1FDBF33F0080F416 /* AFAnimateLayer.h */,
 				3EE23C081FDBF33F0080F416 /* AFAnimateLayer.m */,
@@ -191,14 +305,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5FC7DB1FE51920009752F0 /* TestView.m in Sources */,
+				3E5FC7E31FE51B4E009752F0 /* UIView+APUtils.m in Sources */,
+				3E5FC7D61FE518BF009752F0 /* VTFontDescriptor.m in Sources */,
+				3E5FC7DE1FE519BB009752F0 /* BaseDataModel.m in Sources */,
+				3E5FC7D01FE518BF009752F0 /* OTAudioStoreView.m in Sources */,
+				3E5FC7D41FE518BF009752F0 /* NSString+VideoText.m in Sources */,
+				3E5FC7CB1FE518BF009752F0 /* HorizontalButtonsView.m in Sources */,
 				3EE23BF51FDBF2AB0080F416 /* ViewController.m in Sources */,
+				3E5FC7CA1FE518BF009752F0 /* NSAttributedString+VideoText.m in Sources */,
 				3EE23C001FDBF2AB0080F416 /* main.m in Sources */,
+				3E5FC7C81FE518BF009752F0 /* AudioStoreCCell.m in Sources */,
 				3EE23C101FDBF33F0080F416 /* AFAnimateTrack.m in Sources */,
+				3E5FC7D71FE518BF009752F0 /* VTContainerView.m in Sources */,
+				3E5FC7CD1FE518BF009752F0 /* VTFontDownloadManager.m in Sources */,
+				3E5FC7D11FE518BF009752F0 /* VTTextView.m in Sources */,
+				3E5FC7C91FE518BF009752F0 /* VTFontDescriptorSessionManager.m in Sources */,
 				3EE23C111FDBF33F0080F416 /* AFAnimateItem.m in Sources */,
+				3E5FC7D31FE518BF009752F0 /* VTParamObject.m in Sources */,
+				3E5FC7D51FE518BF009752F0 /* VTTextInputView.m in Sources */,
 				3EE23C151FDBF3460080F416 /* YYTimer.m in Sources */,
 				3EE23C0F1FDBF33F0080F416 /* AFAnimateLayer.m in Sources */,
 				3EE23BF21FDBF2AB0080F416 /* AppDelegate.m in Sources */,
+				3E5FC7D81FE518BF009752F0 /* VTTextAttribute.m in Sources */,
+				3E5FC7C71FE518BF009752F0 /* VTENUMsToValue.m in Sources */,
+				3E5FC7C61FE518BF009752F0 /* NSShadow+VideoText.m in Sources */,
+				3E5FC7D21FE518BF009752F0 /* UIView+DrawCross.m in Sources */,
 				3EE23C1A1FDBF9B90080F416 /* AFAnimateTextLayer.m in Sources */,
+				3E5FC7CF1FE518BF009752F0 /* VTENUMTitles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -94,6 +94,7 @@
             p0 = lastTrack.p0;
             p1 = lastTrack.p1;
             color = lastTrack.color;
+            width = lastTrack.width;
             alpha = lastTrack.alpha;
         }else{
             return;

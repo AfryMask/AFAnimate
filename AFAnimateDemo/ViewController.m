@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AFAnimate.h"
+#import "TestView.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -33,6 +34,10 @@
     [self.animateLayer setTextArray:@[@"123"]];
     
     [self setupPlayButton];
+    
+    TestView *test = [[TestView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    [self.view addSubview:test];
+    
 }
 
 - (void)setupPlayButton{
